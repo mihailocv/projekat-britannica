@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  background-color: hsl(215, 100%, 98%);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.topnav {
+}
+
+.wrapper {
+  width: min(100% - 3rem, 75rem);
+  margin-inline: auto;
+}
+
+.topnav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.topnav__logo {
+  height: auto;
+  width: 70px;
+}
+
+.topnav__logo:hover {
+  opacity: 90%;
+}
+
+.topnav__list {
+    margin: 0;
+    padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.topnav__item {
+  list-style-type: none;
+}
+
+.topnav__link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: hsl(0, 90%, 41%);
+}
+
+.topnav__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.8px;
+  text-underline-offset: 3px;
+  animation: forwards 0.4s;
+  color: hsl(0, 100%, 67%);
+  transition: 0.4s ease-in;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .topnav__wrapper {
+        padding-block: 10px;
+        gap: 10px;
+    }
+
+    .topnav__logo {
+        width: 50px;
+    }
+
+    .topnav__list {
+        gap: 7px;
+        align-items: center;
+        text-align: center;
+        line-height: 1em;
+        justify-content: flex-end;
+    }
+
+    .topnav__item {
+        flex: 0 1 65px;
+    }
+
+    .topnav__link {
+        font-size: 0.8rem;
+    }
+}
