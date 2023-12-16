@@ -14,11 +14,25 @@
       rel="stylesheet"
     />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -52,8 +66,38 @@
         </nav>
       </div>
     </header>
-    <main>
-      <h1>kontakt</h1>
+    <main id="main-kontakt">
+      <div class="form__box">
+        <form class="form__elements">
+          <div class="form__input">
+            <p>Ime i prezime:</p>
+            <input placeholder="Marko Markovic" type="text" />
+          </div>
+
+          <div class="form__input">
+            <p>Email:</p>
+            <input placeholder="primjer@primjer.com" type="email" />
+          </div>
+
+          <div class="form__input">
+            <p>Vaša poruka:</p>
+            <textarea placeholder="Vasa poruka"></textarea>
+          </div>
+
+          <input type="submit" value="Pošalji" class="form__submit" />
+        </form>
+        <div class="form__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89850.52983618846!2d19.6935497686217!3d45.27146619091279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b10613de93455%3A0xb6f7d683724fe28!2sNovi%20Sad%2C%20Srbija!5e0!3m2!1sbs!2sba!4v1702752492051!5m2!1sbs!2sba"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="wrapper footer__wrapper">
