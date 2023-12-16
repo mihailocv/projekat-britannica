@@ -344,6 +344,24 @@ textarea {
   height: 100%;
 }
 
+.info__title {
+  color: hsl(0, 90%, 41%);
+  margin-block: 50px 30px;
+  text-align: center;
+}
+
+.info__content {
+    margin-top: 5px;
+  color: darkslategray;
+  text-align: justify;
+}
+
+hr {
+  margin: 0 auto 40px auto;
+  display: block;
+  width: 60%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .topnav__logo {
     width: 50px;
