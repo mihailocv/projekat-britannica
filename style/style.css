@@ -58,9 +58,6 @@ a:active {
   text-decoration: none;
 }
 
-.topnav {
-}
-
 .wrapper {
   width: min(100% - 3rem, 75rem);
   margin-inline: auto;
@@ -249,9 +246,6 @@ a:active {
   transition: 0.2s ease-in-out;
 }
 
-.footer__nav {
-}
-
 .footer__list {
   margin: 0;
   padding: 0;
@@ -351,7 +345,7 @@ textarea {
 }
 
 .info__content {
-    margin-top: 5px;
+  margin-top: 5px;
   color: darkslategray;
   text-align: justify;
 }
