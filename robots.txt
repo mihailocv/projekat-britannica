@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://mihailocv.github.io/projekat-britannica/sitemap.xml
